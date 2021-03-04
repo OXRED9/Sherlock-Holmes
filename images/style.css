@@ -1,0 +1,65 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    display: relative;
+    top: 50%;
+    width: auto;
+    margin: auto;
+}
+
+.quiz {
+    /* border: .2em solid black; */
+    width: fit-content;
+    margin: auto;
+}
+
+img {
+    border: .05em solid black;
+    width: 5em;
+}
+
+.test {
+    border: .05em solid red;
+    height: 2.5em;
+    width: 2.5em;
+    font-size: 2em;
+    font-weight: 700;
+    padding: .4em 0;
+    margin: .13em .13em;
+}
+
+.col {
+    padding: .25em .25em;
+    margin: 0 0;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+span {
+    font-size: 1.5em;
+    font-weight: 600;
+    direction: rtl;
+}
+
+p {
+    font-size: 1.75em;
+    font-weight: 600;
+    direction: rtl;
+}
+
+.vr {
+    position: absolute;
+    border-left: .2em solid black;
+    height: 37%;
+    margin-left: 18.8%;
+}
